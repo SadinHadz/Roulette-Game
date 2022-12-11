@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+   
+  }
+
+
+  .bg-black{
+    background-color: rgba(0, 0, 0, 0.466);
+  }
+
+  .btn {
+    background-color: #F28530;
+    border-radius: 25px;
+    color: white;
+    width: 160px;
+    text-align: center;
+    padding: 6px 32px;
+    border: 3px solid rgb(255, 255, 255);
+    
+  }
+
+  .btn2 {
+    background-color: #F28530;
+    color: white;
+    width: 160px;
+    padding: 6px 32px;
+    border: 3px solid rgb(255, 255, 255);
+  }
+  .btn3 {
+    background-color: #F28530;
+    color: white;
+    width: 185px;
+    padding: 6px 32px;
+    border: 3px solid rgb(255, 255, 255);
+    
+  }
+  .btn4 {
+    background-color: #F28530;
+    color: white;
+    width: 195px;
+    padding: 6px 32px;
+    border: 3px solid rgb(255, 255, 255);
+    
+  }
+  .btn5 {
+    background-color: #F28530;
+    color: white;
+    
+    padding: 6px 63px;
+    border: 3px solid rgb(255, 255, 255);
+    margin-top: 1em;
+    
+  }
+  .btn6 {
+    background-color: #F28530;
+    color: white;
+    
+    padding: 6px 63px;
+    border: 3px solid rgb(255, 255, 255);
+    margin-top: 1em;
+    margin-left: 1em;
+    
+  }
+  .absolute{
+    position: absolute;
+  }
+  .width100{
+    width: 100%;
+    height: 500px;
+  }
+  .none{
+    display:none;
+  }
+  #ulog{
+    width: 80%;
+  }
+ .ml-1 {
+  margin-left: 1em;
+ }
+ 
+  #submit2{
+    margin-left: 48%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+  .ml-auto{
+    margin-left: auto;
+  }
+  .mr-auto{
+    margin-right: auto;
+  }
+
+  .pointer{
+    cursor: pointer
+  }
+  .text-white{
+    color:white;
+  }
+  .mt-1{
+    margin-top: 1em;
+    
+  }
+
+  .mt-3{
+    margin-top: 3em;
+  }
+
+  .mb-1{
+    margin-bottom: 1em;
+  }
+  .ml-2{
+    margin-left: 2em;
+  }
+
+  .row {
+    flex-direction: row;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .flex-center {
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  #h12{
+    margin-top: 0em;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+  }
+  #h123{
+    margin-top: 2em;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+  }
+  #broj{
+    width: 50%;
+  }
+
+  .text-center{
+    text-align: center;
+  }
+#zapocni{
+  
+  background-color: #F28530;
+  border-radius: 25px;
+  color: white;
+  width: 160px;
+  text-align: center;
+  padding: 6px 32px;
+  border: 3px solid rgb(255, 255, 255);
+}
+  #info{
+    font-size: 25px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 2em;
+    text-transform: uppercase;
+  }

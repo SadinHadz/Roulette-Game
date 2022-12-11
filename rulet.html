@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="rulet.css">
+</head>
+
+
+<body class="bg-black">
+    <header>
+      
+<div class="">
+    <h1 id="h12" class="flex flex-center text-center">Roulette Game</h1>
+    <IMG id="pobjeda" class="absolute width100 none" onclick="klik() , playAudio()"   SRC="confetti.gif">.
+      
+      <audio id="myAudio" loop >
+      <source id="zika" src="aaa.mp3" type="audio/mpeg">
+    </audio>
+<div class="btn2 mt-3 ml-auto mr-auto">
+        <a class="">RESULT:</a>
+        <a id="rezultat"></a>
+       
+      </div>
+      <a id="pobjeda3" class="flex flex-center mt-1 text-white"></a>
+<div class="flex row flex-center">      
+<div class="btn3 ml-2 mt-3 ">
+        <a class="">COINS:</a>
+        <a id="kesh">400</a>
+       
+      </div>
+<div class="btn4 ml-2 mt-3 flex row">
+        <a class="">BET:</a>
+        <form action="#zapocni" method="get">
+        <input class= "ml-1" type="number" id="ulog" min="1" max="5000" value="" placeholder="Your Bet">
+       
+      
+      </div>
+    </div>         
+<div class="btn4 mr-auto ml-auto mt-3 flex row">
+        <a class="">NUMBER:</a>
+        
+        <form action="#zapocni" method="get">
+        <input class= "ml-1" type="number" min="1" max="20" id="broj" placeholder="Your Number">
+        
+        
+      
+      </div>
+      <div class="text-center pointer mt-3 ml-auto mr-auto">
+        <input type="submit" value="Start" id="zapocni" class="pointer" onclick="pritisnutoDugme()">
+        
+      </form>
+      <a id="pobjeda2" class="none"></a>
+      </div>
+     
+      </div>
+      <a id="info"> </a>
+       <h1 id="h123" class="flex flex-center text-center">Choose Number from 1 to 20!</h1>
+      
+      </div>
+      
+
+
+
+</div>
+
+
+
+
+
+
+
+
+</header>
+<script src="rulet.js"></script>
+</body>
+</html>
